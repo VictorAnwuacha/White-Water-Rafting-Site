@@ -1,0 +1,112 @@
+* {
+    margin: 0px;
+}
+
+:root {
+    --primary-color: #D5BDAF;
+    --secondary-color: #E3D5CA;
+    --accent1-color: #EDEDE9;
+    --accent2-color: #F5EBE0;
+}
+
+body {
+    background-color: var(--accent1-color);
+    font-family: 'Roboto', sans-serif;
+}
+
+.top-bar {
+    display: flex;
+    background-color: var(--primary-color);
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu {
+    list-style: none;
+    display: inline-block;
+    display: flex;
+    gap: 50px;
+    margin: 30px;
+}
+.menu li a {
+    text-decoration: none;
+    color: black;
+}
+.menu li a:hover {
+    color: var(--accent2-color);
+    text-decoration: underline;
+}
+.logo {
+    padding: 10px 30px 10px 30px;
+}
+.hero {
+    text-align: center;
+    position: relative;
+}
+.hero img {
+    width: 100%;
+    height: auto;
+}
+.hero h1 {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 5rem;
+    color: var(--accent2-color);
+}
+.hero a {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-decoration: none;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    background-color: var(--accent2-color);
+    border: 0 solid aquamarine;
+    border-radius: 5px;
+    color: black;
+    padding: 5px;
+}
+.article {
+    display: flex;
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    color: var(--accent2-color);
+}
+.article img {
+    width: 70px;
+    float: right;
+    margin: 0 0 0 5px;
+}
+.section1 {
+    text-align: center;
+    padding: 40px;
+}
+.section2 {
+    text-align: center;
+}
+.section2 img {
+    width: 300px;
+    border-radius: 10px;
+    padding: 5px;
+}
+footer {
+    background-color: var(--secondary-color);
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+.social-media-icons a {
+    text-decoration: none;
+    margin: 0 10px;
+}
+.social-media-icons img {
+    width: 30px;
+}
+
